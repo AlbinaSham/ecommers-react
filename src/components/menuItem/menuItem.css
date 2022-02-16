@@ -1,0 +1,31 @@
+.menu-item{
+    width:300px;
+    height: 200px;
+    padding: 0%;
+    margin: 0% 4%;
+
+}
+.mwnu-item :hover {
+    cursor: pointer;
+}
+.menu-image{
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-image: var(--my-image);
+}
+.menu-image:hover{
+    background-image: var(--hover-image);
+    
+}
+.menu-content{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    position: absolute;
+}
+

@@ -1,0 +1,18 @@
+.menu{
+    margin-top:4% ;
+    justify-content: center;
+}
+
+
+
+.directory-menu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+
+  .menu h1{
+      margin-bottom: 3%;
+  }

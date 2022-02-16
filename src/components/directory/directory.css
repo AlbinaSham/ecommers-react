@@ -1,0 +1,49 @@
+.directory{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fbf8f1;
+    
+}
+
+
+
+.background-image{
+    
+    background-image: url(./../../../public/image/main.jpg);
+    width: 55%;
+    height: 600px;
+    background-size:cover;
+    background-position: center;
+    
+    
+}
+
+.content{
+    align-items:center;
+    margin: auto;
+    padding: 0;
+    width: 50%;
+}
+.content h1{
+    font-size: 3rem;
+    margin: 2%;
+    animation: mymove 5s infinite;
+    
+}
+
+@keyframes mymove {
+    50% {font-size: 55px;
+    }
+    
+  }
+
+
+
+.content h3{
+   
+    font-size: 1.2rem;
+    
+}
+.button{
+    margin: 3%;
+}
