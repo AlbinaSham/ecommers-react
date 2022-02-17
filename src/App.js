@@ -52,10 +52,10 @@ class App extends React.Component {
         <div className="App">
        <Header  />
       <Switch>
-        <Route exact path='/' component={Home} />
-        <Route path='/shop' component={Shop} />
-        <Route path='/checkout' component={Checkout} />
-        <Route
+        <Route to exact path='/' component={Home} />
+        <Route to path='/shop' component={Shop} />
+        <Route  to path='/checkout' component={Checkout} />
+        <Route to
             exact
             path='/signin'
             render={() =>

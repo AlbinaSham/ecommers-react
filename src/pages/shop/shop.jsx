@@ -7,7 +7,9 @@ import Category from '../category/category';
 const Shop = ({ match }) => (
   <div className='shop-page'>
     <Route exact path={`${match.path}`} component={CollectionsOverview} />
-    <Route path={`${match.path}/:collectionId`} component={ Category } />
+    <Route path={`${match.path}/:collectionId`} component={Category} />
+    
+    
   </div>
 );
 

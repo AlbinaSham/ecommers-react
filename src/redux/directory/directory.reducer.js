@@ -20,13 +20,14 @@ const INITIAL_STATE ={
         imageUrl2: 'image/necklace11.jpg',
         id: 3,
         linkUrl: 'shop/neckplace'
-      },
+      }
  
     ]
   };
 
 
-const directoryReducer = (state = INITIAL_STATE, action) => {
+
+  const directoryReducer = (state = INITIAL_STATE, action) => {
     switch (action.type) {
       default:
         return state;
