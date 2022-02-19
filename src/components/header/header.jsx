@@ -12,7 +12,7 @@ import CartDropdown from '../cartDropdown/cartDropdown';
 
 const Header = ({ currentUser, hidden }) => (
   <div className='header'>
-    <Link className='logo-container' to='/'>
+    <Link className='logo-container'  to='/'>
       <h3>
           M E J U 
       </h3>
@@ -27,7 +27,7 @@ const Header = ({ currentUser, hidden }) => (
         <div className='option' onClick={ () => auth.signOut()}>
           SIGN OUT </div>
            ):(
-            <Link className='option' to='/signin'>
+            <Link className='option'  to='/signin'>
                SIGN IN
              </Link>
            ) }
